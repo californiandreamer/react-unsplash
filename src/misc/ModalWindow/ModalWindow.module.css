@@ -1,0 +1,100 @@
+.modalWindow {
+    width: 100%;
+    height: 100%;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalWindowClose {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 110;
+}
+
+.modalWindowCloseImg {
+    width: 100%;
+    height: 100%;
+}
+
+.modalWindowContent {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #000;
+}
+
+.modalTopRow {
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.authorImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.authorInfo {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.authorName {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.authorNickname {
+    color: #999;
+}
+
+.modalWindowImg {
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+    object-fit: contain;
+}
+
+.bottomRow {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.photoPlaceImg {
+    width: 25px;
+    height: 25px;
+    padding: 0 5px;
+}
+
+.photoPlaceText {
+    font-size: 14px;
+}

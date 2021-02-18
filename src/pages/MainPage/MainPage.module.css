@@ -1,0 +1,66 @@
+.mainPageWrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.backgroundWrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.backgroundImg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.backgroundMask {
+    content: "";
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contentWrapper {
+    width: 100%;
+    max-width: 700px;
+    text-align: left;
+}
+
+.title {
+    padding: 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.subTitle,
+.poweredBy,
+.trends {
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.trends {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.trendsItem {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
